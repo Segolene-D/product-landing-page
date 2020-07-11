@@ -1,136 +1,82 @@
-.logo
+/*.logo
 {
-  position: relative;
-  top: 10%;
-  right: 15%;
+position: relative;
+top: 10%;
+right: 15%;
+}*/
+
+body, header
+{
+    background-color: #d3ffe7;
+    text-align: justify;
+    font-family: 'Maven Pro', sans-serif;
+    padding: 0 10vw;
 }
 
-body
+#video, #subscribe
 {
-  background-color: #d3ffe7;
-  text-align: center;
-  font-family: 'Maven Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #header-img
 {
-  position: relative;
-  top: 0em;
-  right: 40em;
-  height: 50px;
-  width: 50px;
-  border-radius:10px;
+    height: 50px;
+    width: 50px;
+    border-radius:10px;
 }
 
-h1
-{
-  position: relative;
-  top: -2em;
-  right: 17em;
+#header-title{
+    
 }
 
-#welcome #form
-{
-  position: relative;
-  top: -8em;
-   width: 90%;
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-form
-{
-  position: relative;
-  top: 0px;
-  border-radius: 10px;
-   width: 75%;
-}
+
+/* 
+Navbar links
+*/
 
 ul
 {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  background-color: grey;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: grey;
 }
 
 li a
 {
-  display: block;
-  color: white;
-  padding: 8px 16px;
-  text-decoration: none;
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
 }
 
 li a:hover
 {
-  background-color: #d3ffe7;
-  color: black;
+    background-color: #d3ffe7;
+    color: black;
 }
 
 li a.active
 {
-  background-color: #d3ffe7;
-  color: black;
+    background-color: #d3ffe7;
+    color: black;
 }
 
-#who
-{
-  left: 5%;
-  text-align: left;
-  font-size: 1em;
-  width: 90%;
-}
-
-#survive
-{
-  left: 5%;
-  text-align: left;
-  font-size: 1em;
-  width: 90%;
-}
-
-#forms
-{
-  left: 5%;
-  text-align: left;
-  font-size: 1em;
-  width: 90%;
-}
-
-
-#video
-{
-  position: relative;
-  top: 50%;
-  left: 10%;
-  width: 75%;
-}
-
-div 
-{
-  font-size: 2em;
-  position: relative;
-  top: 100px;
-}
-
-#subscribe
-{
-  left: 5%;
-  font-size: 1em;
-  width: 90%;
-  position: relative;
-  top: 10%;
-  left: 10%;
-}
-
-@media screen and (max-width: 650px)
-{
-  display: block;
-}
-
+/*
+Youtube video
+*/
 iframe
 {
-  text-align: center;
+    text-align: center;
 }
 
 
